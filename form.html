@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>注册页面</title>
+<meta charset='utf-8' />
+<link rel="stylesheet" href="form.css">
+</head>
+    <body>
+    	<form action="http://www.baidu.com" method="post">
+    		<table>
+            <tr><td>用户名：</td><td><input type="text" name="username" value="张三"/></td></tr>
+    		<tr><td>密码：</td><td><input type="password" name="password" /></td></tr>
+    		<tr><td>性别：</td><td>男：<input type="radio" name="gender" value="男" checked="checked"/>
+    		    女：<input type="radio" name="gender" value="女" /></td></tr>
+    			<tr><td>爱好：</td><td>篮球 <input type="checkbox" name="hobby" value="篮球" />
+    			足球 <input type="checkbox" name="hobby" value="足球" />
+    			排球 <input type="checkbox" name="hobby" value="排球" />
+    			唱歌 <input type="checkbox" name="hobby" value="唱歌" /></td></tr>
+    		    <tr><td>学历:</td><td><select name="xueli">
+    			    <option value="高中">高中</option>
+    			    <option value="大学">大学</option>
+    			    <option value="硕士">硕士</option>
+    		        </select></td></tr>
+                </table>
+            <p>自我介绍：</p>
+    		<p>
+    			<textarea name="intro"></textarea>
+    		</p>
+            <!--<p><input type="file" name="pic"/></p><p>隐藏域：你看不见<input type="hidden" name="IP" name="192.168.1.100"/></p>-->
+    		<p id="sub1">
+    			<input id="sub2" type="submit" value="提交"/>
+    		</p>
+    	</form>
+    </body>
+</html>
