@@ -1,0 +1,30 @@
+body {
+	background:#efe5d0;
+	margin:20px;
+	font-size:16px;
+	font-family: "Microsoft Yahei";
+}
+
+form {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border:thin dotted #7e7e7e;
+	background-color: #e1ceb8;
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+#sub1 {
+	margin: 10px 200px;
+}
+
+#sub2 {
+	width: 90px;
+	height: 30px;
+	color: red;
+}
