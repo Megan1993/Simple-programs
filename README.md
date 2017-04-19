@@ -1,3 +1,3 @@
-# Simple-programs
-Simple programs
+# Simple-website
+
 The first file, wish you like it! Thank you!
